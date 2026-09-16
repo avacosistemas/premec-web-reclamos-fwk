@@ -1,0 +1,44 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
+    "useDefineForClassFields": false,
+    "paths": {
+      "environments/*": [
+        "src/environments/*"
+      ],
+      "app/*": [
+        "src/app/*"
+      ],
+      "@fwk": [
+        "node_modules/@avacosistemas/core"
+      ],
+      "@fwk/core": [
+        "node_modules/@avacosistemas/core"
+      ],
+      "@fwk/*": [
+        "node_modules/@avacosistemas/core/*"
+      ],
+      "@avacosistemas/core": [
+        "node_modules/@avacosistemas/core"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false
+  }
+}

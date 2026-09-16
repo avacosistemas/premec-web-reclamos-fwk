@@ -1,0 +1,156 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "premec-reclamos": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:application",
+          "options": {
+            "preserveSymlinks": true,
+            "outputPath": "dist/premec-reclamos",
+            "index": "src/index.html",
+            "browser": "src/main.ts",
+            "polyfills": [
+              "zone.js"
+            ],
+            "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/@avacosistemas/core/assets",
+                "output": "assets",
+                "followSymlinks": true
+              },
+              {
+                "glob": "**/*",
+                "input": "node_modules/tinymce",
+                "output": "tinymce"
+              }
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": [],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules/@avacosistemas/core/assets/styles",
+                "node_modules/@avacosistemas/core"
+              ]
+            }
+          },
+          "configurations": {
+            "test": {
+                "budgets": [
+                        {
+                        "type": "anyComponentStyle",
+                        "maximumWarning": "6kb"
+                        }
+                    ],
+                    "optimization": true,
+                    "outputHashing": "all",
+                    "sourceMap": false,
+                    "namedChunks": false,
+                    "extractLicenses": true,
+                    "fileReplacements": [
+                        {
+                        "replace": "src/environments/environment.ts",
+                        "with": "src/environments/environment.test.ts"
+                        }
+                    ]
+                },
+                  "production": {
+                    "budgets": [
+                        {
+                        "type": "anyComponentStyle",
+                        "maximumWarning": "6kb"
+                        }
+                    ],
+                    "optimization": true,
+                    "outputHashing": "all",
+                    "sourceMap": false,
+                    "namedChunks": false,
+                    "extractLicenses": true,
+                    "fileReplacements": [
+                        {
+                        "replace": "src/environments/environment.ts",
+                        "with": "src/environments/environment.prod.ts"
+                        }
+                    ]
+                },
+            "development": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "buildTarget": "premec-reclamos:build:production"
+            },
+            "development": {
+              "buildTarget": "premec-reclamos:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "buildTarget": "premec-reclamos:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
+            "tsConfig": "tsconfig.spec.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/@avacosistemas/core/assets",
+                "output": "assets",
+                "followSymlinks": true
+              },
+              {
+                "glob": "**/*",
+                "input": "node_modules/tinymce",
+                "output": "tinymce"
+              }
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": []
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": false
+  }
+}

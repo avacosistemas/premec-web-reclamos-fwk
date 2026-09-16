@@ -1,0 +1,21 @@
+{
+    "ok": null,
+    "status": "OK",
+    "data": [
+        {
+            "serviceCallId": 32486,
+            "activityCode": 94884,
+            "resolucion": "se limpio bien la batería tenía mucho sulfato , se soldo el borne positivo y se le cambio el cable qué va hacia la ficha se le coloco uno nuevo , se probó funciona bien quedo bien agarrado \rse  usaron repuestos de la ficha nueva  para armar la ficha vieja  ya que los que tenia se rompieron",
+            "fecha": "16/09/2026",
+            "horaInicio": "09:20",
+            "horaFin": "13:20",
+            "empleadoAsignado": "Daira Romero",
+            "estado": "Enviado",
+            "valoracion": "MB",
+            "supervisor": "maximiliano polo",
+            "informe": true
+        }
+    ],
+    "error": null,
+    "page": null
+}

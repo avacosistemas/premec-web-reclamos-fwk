@@ -1,0 +1,320 @@
+{
+    "ok": null,
+    "status": "OK",
+    "data": {
+        "A175": {
+            "periodos": [
+                {
+                    "anio": 2026,
+                    "mes": 1,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 2,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 3,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 4,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 5,
+                    "cantidadReclamos": 1,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 6,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 7,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 8,
+                    "cantidadReclamos": 1,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 9,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 10,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 11,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 12,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                }
+            ],
+            "cantidadReclamosTotal": 2,
+            "diasParadaTotalTotal": 0
+        },
+        "A230": {
+            "periodos": [
+                {
+                    "anio": 2026,
+                    "mes": 1,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 2,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 3,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 4,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 5,
+                    "cantidadReclamos": 1,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 6,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 7,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 8,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 9,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 10,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 11,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 12,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                }
+            ],
+            "cantidadReclamosTotal": 1,
+            "diasParadaTotalTotal": 0
+        },
+        "A285": {
+            "periodos": [
+                {
+                    "anio": 2026,
+                    "mes": 1,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 2,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 3,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 4,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 5,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 6,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 7,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 8,
+                    "cantidadReclamos": 1,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 9,
+                    "cantidadReclamos": 1,
+                    "diasParadaTotal": 1
+                },
+                {
+                    "anio": 2026,
+                    "mes": 10,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 11,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 12,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                }
+            ],
+            "cantidadReclamosTotal": 2,
+            "diasParadaTotalTotal": 1
+        },
+        "A235": {
+            "periodos": [
+                {
+                    "anio": 2026,
+                    "mes": 1,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 2,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 3,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 4,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 5,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 6,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 7,
+                    "cantidadReclamos": 1,
+                    "diasParadaTotal": 1
+                },
+                {
+                    "anio": 2026,
+                    "mes": 8,
+                    "cantidadReclamos": 1,
+                    "diasParadaTotal": 2
+                },
+                {
+                    "anio": 2026,
+                    "mes": 9,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 10,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 11,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                },
+                {
+                    "anio": 2026,
+                    "mes": 12,
+                    "cantidadReclamos": 0,
+                    "diasParadaTotal": 0
+                }
+            ],
+            "cantidadReclamosTotal": 2,
+            "diasParadaTotalTotal": 3
+        }
+    },
+    "error": null,
+    "page": null
+}

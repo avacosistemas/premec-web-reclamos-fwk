@@ -1,0 +1,63 @@
+{
+    "ok": null,
+    "status": "OK",
+    "data": [
+        {
+            "id": 4,
+            "nombre": "Ruedas",
+            "tipoMaquina": "ELECTRICA"
+        },
+        {
+            "id": 24,
+            "nombre": "transmision / diferencial ",
+            "tipoMaquina": "ELECTRICA"
+        },
+        {
+            "id": 10,
+            "nombre": "Fallas eléctricas",
+            "tipoMaquina": "ELECTRICA"
+        },
+        {
+            "id": 15,
+            "nombre": "Batería o cargador",
+            "tipoMaquina": "ELECTRICA"
+        },
+        {
+            "id": 7,
+            "nombre": "Elementos de seguridad ",
+            "tipoMaquina": "ELECTRICA"
+        },
+        {
+            "id": 3,
+            "nombre": "Mástil (solo parte mecánica)",
+            "tipoMaquina": "ELECTRICA"
+        },
+        {
+            "id": 17,
+            "nombre": "Estado de cabina/chasis",
+            "tipoMaquina": "ELECTRICA"
+        },
+        {
+            "id": 19,
+            "nombre": "Frenos",
+            "tipoMaquina": "ELECTRICA"
+        },
+        {
+            "id": 22,
+            "nombre": "Sistema de refrigeracion ",
+            "tipoMaquina": "ELECTRICA"
+        },
+        {
+            "id": 25,
+            "nombre": "Sistema de cámara de uñas ",
+            "tipoMaquina": "ELECTRICA"
+        },
+        {
+            "id": 6,
+            "nombre": "Sistema hidráulico (perdidas de aceite/fallas)",
+            "tipoMaquina": "ELECTRICA"
+        }
+    ],
+    "error": null,
+    "page": null
+}

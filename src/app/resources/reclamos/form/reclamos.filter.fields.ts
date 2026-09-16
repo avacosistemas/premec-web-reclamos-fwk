@@ -1,0 +1,84 @@
+import { DynamicField, SELECT, NUMBER, DATEPICKER, AUTOCOMPLETE_DESPLEGABLE } from "@fwk/core";
+import { PREFIX_DOMAIN_API } from "environments/environment";
+
+export const RECLAMOS_FILTER_FORM_FIELDS_DEF: DynamicField<any>[] = [
+    {
+        key: 'nroReclamo',
+        labelKey: 'fl_numero',
+        controlType: NUMBER,
+        colSpan: 1
+    },
+    {
+        key: 'estado',
+        labelKey: 'cl_estado',
+        controlType: SELECT,
+        options: {
+            fromData: [
+                { id: '', name: 'Todos' },
+                { id: 'Rechazado', name: 'Rechazado' },
+                { id: 'Abierto', name: 'Abierto' },
+                { id: 'En Curso', name: 'En Curso' },
+                { id: 'Cerrado', name: 'Cerrado' }
+            ],
+            elementLabel: 'name',
+            elementValue: 'id'
+        },
+        colSpan: 1
+    },
+    {
+        key: 'maquina',
+        labelKey: 'fl_maquina',
+        controlType: AUTOCOMPLETE_DESPLEGABLE,
+        options: {
+            transferIdToField: 'InternalSerialNum',
+            elementLabel: 'label',
+            elementValue: 'InternalSerialNum',
+            useNativeFilter: false,
+            searchOnFocus: false,
+            selectElementOrCleanField: 'Debe seleccionar un elemento o limpiar el campo'
+        },
+        apiOptions: {
+            queryString: {
+                nombre: 'maquina'
+            },
+            defaultShow: 20,
+            // url: PREFIX_DOMAIN_API + 'customer/equipment'
+            url: 'assets/mocks/equipment.json'
+        },
+        colSpan: 1
+    },
+
+    {
+        key: 'InternalSerialNum',
+        controlType: 'hidden'
+    },
+
+    {
+        key: 'fechaDesde',
+        labelKey: 'fl_desde',
+        controlType: DATEPICKER,
+        colSpan: 1
+    },
+    {
+        key: 'fechaHasta',
+        labelKey: 'fl_hasta',
+        controlType: DATEPICKER,
+        colSpan: 1
+    },
+    {
+        key: 'tipoFecha',
+        labelKey: 'fl_tipo_fecha',
+        controlType: SELECT,
+        options: {
+            fromData: [
+                { id: 'creacion', name: 'Creación' },
+                { id: 'asignacion', name: 'Asignación' },
+                { id: 'inicio', name: 'Inicio' },
+                { id: 'fin', name: 'Fin' }
+            ],
+            elementLabel: 'name',
+            elementValue: 'id'
+        },
+        colSpan: 1
+    }
+];

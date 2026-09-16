@@ -1,0 +1,32 @@
+{
+    "ok": null,
+    "status": "OK",
+    "data": [
+        {
+            "id": 19,
+            "nombre": "Rueda desgastada",
+            "idTipoProblema": 4,
+            "tipoProblema": "Ruedas"
+        },
+        {
+            "id": 21,
+            "nombre": "Rotura/salto",
+            "idTipoProblema": 4,
+            "tipoProblema": "Ruedas"
+        },
+        {
+            "id": 29,
+            "nombre": "falta de bulonería (maza/llanta)",
+            "idTipoProblema": 4,
+            "tipoProblema": "Ruedas"
+        },
+        {
+            "id": 30,
+            "nombre": "rotura/mal estado de rodamientos",
+            "idTipoProblema": 4,
+            "tipoProblema": "Ruedas"
+        }
+    ],
+    "error": null,
+    "page": null
+}
