@@ -4,7 +4,7 @@ export const PREFIX_STATS_API = PREFIX_DOMAIN_API + 'estadisticas/';  // Reserva
 export const PREFIX_SWAGGER_API = 'http://premec.ddns.net:48080/ws-reclamos/v2/api-docs';
 
 export const environment = {
-    version: '1.0.46',
+    version: '1.0.47',
     production: true,
     security: true,
     dummyServices: false,
